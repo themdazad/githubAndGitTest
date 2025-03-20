@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Flare Signup</title>
+    <style> 
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+        background-size: cover;
+        color: white;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+        padding: 0 50px;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    .text-section {
+        max-width: 700px;
+    }
+    
+    .text-section h1 {
+        font-size: 36px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
+    
+    .text-section span {
+        font-weight: bold;
+    }
+    
+    .text-section p {
+        font-size: 14px;
+        color: #efe9e9;
+    }
+    
+    .form-section {
+        background-color: white;
+        border-radius: 10px;
+        padding: 30px 40px;
+        width: 300px;
+        color: black;
+    }
+    
+    .tabs {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .tabs span {
+        padding: 10px 0;
+        cursor: pointer;
+        font-weight: bold;
+        color: #aaa;
+    }
+    
+    .tabs .active {
+        border-bottom: 2px solid #333;
+        color: #333;
+    }
+    
+    form input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 25px;
+        border: 1px solid #ccc;
+        outline: none;
+    }
+    
+    .create-account {
+        background-color: #36d7b7;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 25px;
+        width: 100%;
+        cursor: pointer;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    
+    .divider {
+        text-align: center;
+        margin: 15px 0;
+        color: #aaa;
+    }
+    
+    .login-twitter {
+        background-color: #1da1f2;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 25px;
+        width: 100%;
+        cursor: pointer;
+        font-weight: bold;
+    }   
+    </style> 
+</head>
+<body>
+    <div class="container">
+        <div class="text-section">
+            <h1>We solve digital problems with an <br><span>outstanding creative flare</span></h1>
+            <p>We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.</p>
+        </div>
+        <div class="form-section">
+            <div class="tabs">
+                <span class="active">Sign Up</span>
+                <span>Login</span>
+            </div>
+            <form>
+                <input type="email" placeholder="Your email" required>
+                <input type="password" placeholder="Your password" required>
+                <button class="create-account">Create an Account</button>
+                <div class="divider">or</div>
+                <button class="login-twitter">Login via Twitter</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
